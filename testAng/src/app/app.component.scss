@@ -1,0 +1,21 @@
+/* app.component.css */
+.pagination-container {
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.pagination-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

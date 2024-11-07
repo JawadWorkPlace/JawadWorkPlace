@@ -7,5 +7,6 @@ import { isSideBar } from './isSideBar';
   styleUrl: './sidebar.component.scss',
 })
 export class SidebarComponent {
+  items = { name: 'Sample Item' };
   sidebarlist: isSideBar[] = [];
 }
